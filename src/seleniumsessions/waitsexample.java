@@ -1,3 +1,4 @@
+package seleniumsessions;
 import java.util.Arrays;
 
 import java.util.List;
@@ -99,7 +100,7 @@ String formattedName=name[0].trim();
 
 //  check whether name you extracted is present in arrayList or not-
 
-List itemsNeededList = Arrays.asList(itemsNeeded);
+List<String> itemsNeededList = Arrays.asList(itemsNeeded);
 
 if(itemsNeededList.contains(formattedName))
 

@@ -1,3 +1,4 @@
+package seleniumsessions;
 
 public class Frameassingment {
 
