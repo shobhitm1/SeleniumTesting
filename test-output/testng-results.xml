@@ -1,69 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="220" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
+  <suite name="Suite" duration-ms="237" started-at="2021-03-15T02:20:04 IST" finished-at="2021-03-15T02:20:05 IST">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="89" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
-      <class name="PRC.emp2">
-        <test-method status="PASS" signature="smsat()[pri:0, instance:PRC.emp2@6ddf90b0]" name="smsat" is-config="true" duration-ms="0" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
+    <test name="Regression" duration-ms="181" started-at="2021-03-15T02:20:04 IST" finished-at="2021-03-15T02:20:05 IST">
+      <class name="Testingng.day5">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:Testingng.day5@32d2fa64]" name="Demo" duration-ms="85" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- smsat -->
-        <test-method status="PASS" signature="smarty2()[pri:0, instance:PRC.emp2@6ddf90b0]" name="smarty2" duration-ms="2" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="amethod()[pri:0, instance:Testingng.day5@32d2fa64]" name="amethod" is-config="true" duration-ms="0" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- smarty2 -->
-        <test-method status="PASS" signature="ayste()[pri:0, instance:PRC.emp2@6ddf90b0]" name="ayste" is-config="true" duration-ms="1" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
+        </test-method> <!-- amethod -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:Testingng.day5@32d2fa64]" name="SecondTest" duration-ms="2" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ayste -->
-      </class> <!-- PRC.emp2 -->
-      <class name="PRC.emp1">
-        <test-method status="PASS" signature="sma()[pri:0, instance:PRC.emp1@2b2948e2]" name="sma" is-config="true" duration-ms="1" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="amethod()[pri:0, instance:Testingng.day5@32d2fa64]" name="amethod" is-config="true" duration-ms="1" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sma -->
-        <test-method status="PASS" signature="bfreclass()[pri:0, instance:PRC.emp1@2b2948e2]" name="bfreclass" is-config="true" duration-ms="0" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
+        </test-method> <!-- amethod -->
+        <test-method status="PASS" signature="aclass()[pri:0, instance:Testingng.day5@32d2fa64]" name="aclass" is-config="true" duration-ms="1" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bfreclass -->
-        <test-method status="PASS" signature="smarty2()[pri:0, instance:PRC.emp1@2b2948e2]" name="smarty2" duration-ms="12" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
+        </test-method> <!-- aclass -->
+        <test-method status="PASS" signature="lastexecution()[pri:0, instance:Testingng.day5@32d2fa64]" name="lastexecution" is-config="true" duration-ms="0" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- smarty2 -->
-        <test-method status="PASS" signature="aftmethod()[pri:0, instance:PRC.emp1@2b2948e2]" name="aftmethod" is-config="true" duration-ms="0" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftmethod -->
-        <test-method status="PASS" signature="aftreclss()[pri:0, instance:PRC.emp1@2b2948e2]" name="aftreclss" is-config="true" duration-ms="0" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftreclss -->
-      </class> <!-- PRC.emp1 -->
+        </test-method> <!-- lastexecution -->
+      </class> <!-- Testingng.day5 -->
     </test> <!-- Regression -->
-    <test name="Another" duration-ms="9" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
-      <class name="PRC.emp3">
-        <test-method status="PASS" signature="smsat()[pri:0, instance:PRC.emp3@3cef309d]" name="smsat" is-config="true" duration-ms="0" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
+    <test name="Smoke" duration-ms="16" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
+      <class name="Testingng.day6">
+        <test-method status="PASS" signature="bfSyite1()[pri:0, instance:Testingng.day6@77f99a05]" name="bfSyite1" is-config="true" duration-ms="11" started-at="2021-03-15T02:20:04 IST" finished-at="2021-03-15T02:20:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- smsat -->
-        <test-method status="PASS" signature="smarty2()[pri:0, instance:PRC.emp3@3cef309d]" name="smarty2" duration-ms="3" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
+        </test-method> <!-- bfSyite1 -->
+        <test-method status="PASS" signature="btestt()[pri:0, instance:Testingng.day6@77f99a05]" name="btestt" is-config="true" duration-ms="0" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- smarty2 -->
-      </class> <!-- PRC.emp3 -->
-      <class name="PRC.emp1">
-        <test-method status="PASS" signature="smat()[pri:0, instance:PRC.emp1@2b2948e2]" name="smat" is-config="true" duration-ms="25" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
+        </test-method> <!-- btestt -->
+        <test-method status="PASS" signature="bclass()[pri:0, instance:Testingng.day6@77f99a05]" name="bclass" is-config="true" duration-ms="0" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- smat -->
-        <test-method status="PASS" signature="smafrt()[pri:0, instance:PRC.emp1@2b2948e2]" name="smafrt" is-config="true" duration-ms="1" started-at="2020-02-23T22:56:49 IST" finished-at="2020-02-23T22:56:49 IST">
+        </test-method> <!-- bclass -->
+        <test-method status="PASS" signature="Demo1()[pri:0, instance:Testingng.day6@77f99a05]" name="Demo1" duration-ms="1" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- smafrt -->
-      </class> <!-- PRC.emp1 -->
-    </test> <!-- Another -->
+        </test-method> <!-- Demo1 -->
+        <test-method status="PASS" signature="amethod()[pri:0, instance:Testingng.day6@77f99a05]" name="amethod" is-config="true" duration-ms="0" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method status="PASS" signature="amethod22()[pri:0, instance:Testingng.day6@77f99a05]" name="amethod22" is-config="true" duration-ms="0" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod22 -->
+        <test-method status="PASS" signature="amethod()[pri:0, instance:Testingng.day6@77f99a05]" name="amethod" is-config="true" duration-ms="0" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:Testingng.day6@77f99a05]" name="SecondTest" duration-ms="2" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="amethod22()[pri:0, instance:Testingng.day6@77f99a05]" name="amethod22" is-config="true" duration-ms="1" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod22 -->
+      </class> <!-- Testingng.day6 -->
+      <class name="Testingng.day5">
+        <test-method status="PASS" signature="afSyite()[pri:0, instance:Testingng.day5@32d2fa64]" name="afSyite" is-config="true" duration-ms="0" started-at="2021-03-15T02:20:05 IST" finished-at="2021-03-15T02:20:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afSyite -->
+      </class> <!-- Testingng.day5 -->
+    </test> <!-- Smoke -->
   </suite> <!-- Suite -->
 </testng-results>

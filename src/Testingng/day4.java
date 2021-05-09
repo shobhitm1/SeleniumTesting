@@ -7,28 +7,31 @@ import org.testng.annotations.Test;
 
 public class day4 {
 
-	//@Parameters({ "URL" })
+	//@Parameters({"URL"})
 	@Test
 	public void WebloginHomeLoan()
 	{
 		
-		System.out.println("webloginhomePersonalLoan");
-		//System.out.println(uname);
-		
+		System.out.println("WebLoginHome TC of Day4 class");
+		System.out.println("***************");
+	//	System.out.println(URL);
 	}
+	
 	
 	
 	@Test(groups={"Smoke"})
 	public void MobileLoginHomeLoan()
 	{
 		//Appium
-		System.out.println("MobileloginHome");
+		System.out.println("MobileloginHome of Day4 CLass");
+		System.out.println("***************");
 	}
 	
 	@Test
-	public void LoginAPIHomeLoan()
+	public void APIHomeLoan()
 	{
 		//Rest API automation
-		System.out.println("APIloginHome");
+		System.out.println("APIloginHome of Day4 class");
+		System.out.println("***************");
 	}
 }

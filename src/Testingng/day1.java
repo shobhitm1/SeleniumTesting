@@ -12,25 +12,28 @@ public class day1 {
 	@AfterTest
 	public void lastexecution()
 	{
-		System.out.println("I will execute last");
+		System.out.println("******After Test Method Inside Day1 Class******");
+		System.out.println("***************");
 		
 	}
 	@Test
 	public void Demo()
 	{
-		System.out.println("hello");//automation
+		System.out.println("Demo TC of Day1 class");//automation
+		System.out.println("***************");
 		
 	}
-	@Test
-	
+	@AfterSuite
 	public void afSyite()
 	{
-		System.out.println("I am the no 1 from last ");
+		System.out.println("******AfterSuite Method Inside Day 1 Classs*****");
+		System.out.println("***************");
 	}
 	@Test
 	public void SecondTest()
 	{
-		System.out.println("bye");
+		System.out.println("Second Test of Day1 class");
+		System.out.println("***************");
 	}
 
 
